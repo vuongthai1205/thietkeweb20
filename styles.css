@@ -1,0 +1,402 @@
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: #EE1C25;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #000000;
+    padding: 20px;
+    border-bottom: 3px solid #FCD116;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FCD116;
+    font-family: 'Montserrat Alternates', sans-serif;
+  }
+  
+  .navbar-brand .img {
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+    border: 2px solid #FCD116;
+  }
+  
+  .navbar .nav-item .nav-link {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FCD116;
+    font-family: 'Montserrat Alternates', sans-serif;
+  }
+  
+  .navbar .nav-item .nav-link:hover {
+    color: #EE1C25;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-toggler {
+    border-color: #FCD116;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url('toggle-icon.html'); /* Replace with your custom toggle icon */
+  }
+  
+/* Landing Section Styles */
+
+#landing {
+    height: 100vh;
+    background-image: url('maoZ.html');
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  #landing h1 {
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Montserrat Alternates', sans-serif;
+    border-top: 2px solid #EE1C25;
+  }
+  
+  .lead {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+    font-size: large;
+    font-weight: 900;
+    font-family: 'Montserrat Alternates', sans-serif;
+  }
+  
+  .img {
+    width: 200px;
+    height: 200px;
+    margin-right: 15px;
+    border: 2px solid #FCD116;
+    border-radius: 6px;
+    margin-bottom: 20px;
+  }
+/* Brand Carosel Section */
+
+.black-bg {
+    background-color: #000000;
+    max-height: fit-content;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  .partner-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .partner-logo {
+    max-width: 100px;
+    height: auto;
+    margin: 0 10px;
+  }
+  
+/* About Section Styles */
+
+#about {
+    background-color: #EE1C25;
+    padding: 2rem 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+  }
+  
+  #about h2 {
+    color: #FFFFFF;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  #about p {
+    color: #FFFFFF;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  #about .btn {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  #about .btn:hover {
+    opacity: 0.8;
+  }
+  
+
+/* Tokenomics Section Styles */
+/* Tokenomics Section Styles */
+
+#tokenomics {
+    height: 100vh;
+    background-color: #FCD116;
+    padding: 2rem 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+  }
+  
+  #tokenomics h2 {
+    color: #FFFFFF;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  #tokenomics p {
+    color: #FFFFFF;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  #tokenomics .buy-button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FCD116;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #EE1C25;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    text-decoration: none;
+  }
+  
+  #tokenomics .row {
+    margin-top: 2rem;
+  }
+  
+  #tokenomics .card {
+    background-color: #EE1C25;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 2rem;
+  }
+  
+  #tokenomics .card:hover {
+    transform: scale(1.025);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  #tokenomics .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  #tokenomics .card-text {
+    font-size: 1rem;
+  }
+
+/* How to Buy Section Styles */
+
+#how-to-buy {
+    height: 100vh;
+    background-color: #EE1C25;
+    margin-bottom: 2rem;
+}
+
+#how-to-buy .card{
+    background-color: #FCD116;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+#how-to-buy .card:hover {
+    transform: scale(1.25);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Community Section Styles */
+
+#community {
+    height: 100vh;
+    background-color: #FCD116;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    /* align contents of section to center */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.community-button {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    flex-direction: column;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #ffffff;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #EE1C25;
+    border-radius: 1rem;
+    line-height: 6rem;
+    width: 60%;
+    align-items: center;
+}
+
+.community-button:hover {
+    transform: scale(1.25);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Roadmap Section Styles */
+
+#roadmap {
+    height: 100vh;
+    background-color: #EE1C25;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+}
+
+#roadmap .card {
+  background-color: #FCD116;
+  max-width: 60%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#roadmap .card:hover {
+  transform: scale(1.025);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* adjust to your preference */
+}
+
+.card-icon {
+  margin-right: 4rem; /* adjust to your preference */
+}
+/* Footer Styles */
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.footer-brand {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-brand a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.footer-brand a:hover {
+    color: #3498db;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    line-height: 2.2;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.social-media-links li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.social-media-links li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-media-links li a:hover {
+    color: #3498db;
+}
+
+/* Media Queries */
+
+.container-mao {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.social-links a {
+    color: #15bdbd;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  
+  .social-links a:hover {
+    color: #129292;
+  }
+  
+  .contract-address {
+    margin-top: 20px;
+    color: #15bdbd;
+    font-size: 1.2rem;
+    text-shadow: 0 0 10px #15bdbd;
+  }
+
